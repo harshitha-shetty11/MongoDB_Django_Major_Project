@@ -2,8 +2,8 @@
 ## 🚀 MongoDB with Django Major Project
 
 ## Demo Video 
-https://www.youtube.com/watch?v=BFjCalYXTrk
 
+https://youtu.be/BFjCalYXTrk?si=RYYId9tKVVPyuYA1
 
 ## 📜Project Description
 This is a full-stack web application built using the Django framework that demonstrates the seamless integration with a MongoDB database. The project allows users to add and view person data, showcasing a practical implementation of Django's ORM with a NoSQL database.
