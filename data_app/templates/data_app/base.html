@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}People Management{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'data_app/css/styles.css' %}">
+</head>
+<body>
+    <div class="nav">
+        <a href="{% url 'list_people' %}">Home</a>
+        <a href="{% url 'add_person' %}">Add Person</a>
+    </div>
+    
+    <div class="container">
+        {% if messages %}
+            {% for message in messages %}
+                <div class="messages {{ message.tags }}">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endif %}
+        
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>
