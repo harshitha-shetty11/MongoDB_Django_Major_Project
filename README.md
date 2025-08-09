@@ -36,7 +36,7 @@ pip (Python package installer)
 A running instance of MongoDB (usually on mongodb://localhost:27017/)
 # Installation
 ## Clone the repository:
-git clone https://github.com/hrshitha-shetty11/Mongo_Django_Major_Project.git
+git clone https://github.com/harshitha-shetty11/Mongo_Django_Major_Project.git
 
 cd Mongo_Django_Major_Project
 ## Create and activate a virtual environment:
